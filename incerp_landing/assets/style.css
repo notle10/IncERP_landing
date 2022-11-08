@@ -1,0 +1,207 @@
+/*makes the text orange*/
+.inc-orange-color {
+  color: #f14c21;
+}
+/*makes the text orange*/
+
+/*makes the text grey*/
+.inc-grey-color {
+  background-color: #f8f8f8;
+}
+/*makes the text grey*/
+
+/*makes the text black*/
+.inc-black-color {
+  color: #0c1d34;
+}
+/*makes the text black*/
+
+/*sets the height of the nav bar*/
+.nav-bar-height {
+  height: 92px;
+}
+/*sets the height of the nav bar*/
+
+/*orange button with white text*/
+.button-get-started {
+  border: 1px solid #f14c21;
+  padding: 10px 20px;
+  outline: none;
+  color: white;
+  background-color: #f14c21;
+}
+/*orange button with white text*/
+
+/*makes the button get a orange border and clear background when you hover */
+.button-get-started:hover {
+  background: transparent;
+  color: #f14c21 !important;
+}
+/*makes the button get a orange border and clear background when you hover */
+
+/* orange border with clear background*/
+.orange-border {
+  border: 1px solid #f14c21;
+  padding: 10px 20px;
+  outline: none;
+  background-color: transparent;
+}
+/* orange border with clear background*/
+
+/*fills the button orange and makes the text white when you hover */
+.orange-border:hover {
+  background-color: #f14c21;
+  color: white;
+}
+/*fills the button orange and makes the text white when you hover */
+
+/*orange background*/
+.bg-orange {
+  background-color: #f14c21;
+}
+/*orange background*/
+
+/*orange text */
+.text-orange {
+  color: #f14c21;
+}
+/*orange text */
+
+/*gives a orange top border */
+.top-border {
+  border-top: 5px solid #f14c21;
+  border-bottom: 0;
+  border-right: 0;
+  border-left: 0;
+  border-radius: 0;
+}
+/*gives a orange top border */
+
+.button-border {
+  border-radius: 0;
+}
+
+/*makes the heading bigger and bolder */
+.hero-title {
+  font-weight: 700;
+  font-size: 3rem;
+}
+/*makes the heading bigger and bolder */
+
+/*makes the card title bolder and a bit larger */
+.crd-ttl {
+  font-weight: bold;
+  font-size: large;
+}
+/*makes the card title bolder and a bit larger */
+
+/*makes the card text smaller*/
+.crd-txt {
+  font-size: small;
+}
+/*makes the card text smaller*/
+
+.b-title {
+  font-weight: 600;
+  font-size: 2.2rem;
+}
+
+.c-para {
+  font-size: 1.2rem;
+}
+
+.float-right {
+  float: right !important;
+}
+
+.bg-blue {
+  background-color: #0c1d34;
+}
+
+.li-footer {
+  text-decoration: none;
+}
+
+.image-border {
+  position: relative;
+}
+
+.image-border::after {
+  content: "";
+  width: 500px;
+  height: 550px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 10;
+  border: 3px solid #f14c21;
+}
+
+.image-border-2 {
+  position: relative;
+}
+
+.image-border-2::after {
+  content: "";
+  width: 500px;
+  height: 550px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 10;
+  border: 3px solid #f14c21;
+}
+
+@media screen and (max-width: 700px) {
+  .image-border::after {
+    content: "";
+    width: 280px;
+    height: 280px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 10;
+    border: 3px solid #f14c21;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .image-border-2::after {
+    content: "";
+    width: 280px;
+    height: 280px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 10;
+    border: 3px solid #f14c21;
+  }
+}
+@media (max-width: 700px) {
+  .display-none-sm {
+    display: none;
+  }
+}
+
+.number-icon {
+  margin-inline: auto;
+  background: #f14c21 !important;
+  color: white;
+  width: 30px;
+  height: 30px;
+  display: grid;
+  place-content: center;
+  border-radius: 100%;
+  box-shadow: 0px 0px 0px 5px #f08b74, 0px 0px 0px 10px #f1a898;
+  position: relative;
+}
+
+.number-icon::after {
+  content: "";
+  position: absolute;
+  left: 300%;
+  top: 0%;
+  background-color: #3c3c3d;
+  width: 250px;
+  height: 2px;
+}
